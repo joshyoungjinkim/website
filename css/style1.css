@@ -1,0 +1,77 @@
+body{
+  font: 15px/1.5 Arial, Helvtica, sans-serif; /* font size/line space/font */
+  padding:0; /*space around elements*/
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/*for the container. use "." in front cuz its a class*/
+.container{
+  width:80%; /*80% of the pagewidth */
+  margin:auto; /*move things in the middle*/
+  overflow:hidden; /*something goes outside of the div, want it to be hidden*/
+
+}
+/*global setting for all unordered lists*/
+ul{
+  margin:0;
+  padding:0;
+}
+/*Header*/
+header{
+  background:#35424A;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom:#FE6F01 3px solid;
+}
+/*links in the header */
+header a{
+  text-decoration:none;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  font-size:15px;
+}
+
+header li{ /*list item in header*/
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color:#FE6F01;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/*Showcase*/
+#showcase{
+  min-height:400px;
+  /* ADD PICTURES!!!!!!!!!1background:url('../img/') no-repeat 0 -400PX;*/
+  text-align:center;
+  color:#ffffff;
+  }
+
+footer{
+  margin:0;
+  padding:0;
+
+}
